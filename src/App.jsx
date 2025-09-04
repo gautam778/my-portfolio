@@ -1,0 +1,32 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Certifications from "./components/Certifications";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
+function App() {
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <Projects />
+      <Skills />
+      <Certifications />
+      <Contact />
+      <Footer />
+    </>
+  );
+}
+
+export default App;
+
+git init
+git add .
+git commit -m "Initial portfolio"
+git branch -M main
+git remote add origin https://github.com/gautam778/my-portfolio.git
+git push -u origin main
